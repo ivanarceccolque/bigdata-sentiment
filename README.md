@@ -81,3 +81,5 @@ bigdata-sentiment/
 - Dataset: Kaggle — Tweets en español con etiquetas de sentimiento
 - Herramientas: Apache Spark, Kafka, MongoDB Atlas, PyMongo, Google Colab
 - Autor: Iván Arce Ccolque
+
+codigo directo en colab.  https://colab.research.google.com/drive/1GOqFjFuMOEHC6Box-DS5zBlfJ3_13g6L?usp=sharing
