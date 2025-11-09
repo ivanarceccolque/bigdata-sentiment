@@ -1,0 +1,21 @@
+# Requisitos para el pipeline de análisis de sentimiento en tweets
+
+# Procesamiento distribuido
+pyspark==3.5.0
+
+# Manipulación de datos
+pandas==2.1.1
+
+# Visualización (para notebooks)
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Comunicación con Kafka
+kafka-python==2.0.2
+
+# Conexión con MongoDB
+pymongo[srv]==4.6.0
+
+# Utilidades para notebooks
+notebook
+ipykernel
