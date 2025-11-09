@@ -1,0 +1,10 @@
+{
+  "appName": "SentimentAnalysisPipeline",
+  "master": "local[*]",
+  "spark.sql.shuffle.partitions": "4",
+  "spark.executor.memory": "2g",
+  "spark.driver.memory": "2g",
+  "spark.mongodb.output.uri": "mongodb://localhost:27017/tweets_db.processed",
+  "spark.mongodb.input.uri": "mongodb://localhost:27017/tweets_db.processed",
+  "spark.sql.legacy.timeParserPolicy": "LEGACY"
+}
